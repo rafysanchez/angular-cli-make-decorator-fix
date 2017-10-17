@@ -1,4 +1,4 @@
-# Angular cli project 1.4.7
+# Angular cli project 1.4.7 (Calling function 'makeDecorator', function calls are not supported)
 
 This project was created to demonstrate how we can solve problem with an angular library that contains angular dependencies and therefore has `node_modules` folder with angular packages. For example when we include ng2-opd-popup package to our project we are getting:
 
