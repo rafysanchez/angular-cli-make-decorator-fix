@@ -1,4 +1,6 @@
-It was created to demonstrate how we can solve problem with a angular library that contains angular dependencies and therefore has node_modules with angular packages.
+# Angular cli project 1.4.7
+
+This project was created to demonstrate how we can solve problem with a angular library that contains angular dependencies and therefore has node_modules with angular packages.
 
 ``ERROR in Error encountered resolving symbol values statically. Calling function 'makeDecorator', function calls are not supported. Consider replacing the function or lambda with a reference to an exported function``
 
