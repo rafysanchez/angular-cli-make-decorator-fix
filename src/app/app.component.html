@@ -1,7 +1,30 @@
 <h1>
   Calling function 'makeDecorator', function calls are not supported
 </h1>
-<button (click)="showPopup()">Test ng2-opd-popup</button>
-<popup>
-    Add your custom html elements here
+<button (click)="showPopup()">Test 1</button>
+
+<button (click)="ClickButton()">Test 2</button>
+
+<button (click)="ClickAnotherButton()">Test 3</button>
+
+<button (click)="showPopup2()">Test 4</button>
+
+<popup #popup0>
+    YYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYY
+</popup>
+
+
+
+<popup  #popup1>
+ XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+</popup>
+
+<popup  #popup2>
+ texto ALETERNATIVO AQUI.
+
+</popup>
+
+
+<popup  #popup4 (confirmClick)="YourConfirmEvent()" (cancelClick)="YourCancelEvent()">
+  Add your own html elements here
 </popup>
